@@ -12,6 +12,7 @@ matplotlib – Plotting and visualization library
 
 Jupyter Notebook – Interactive coding and documentation environment
 
+## STEPS FOLLOWED:-
 Connected to SQLite
 conn = sqlite3.connect("sales_data.db") cursor = conn.cursor()
 
@@ -44,6 +45,9 @@ FROM sales
 GROUP BY product
 ```
 ![](https://github.com/Arijeet226/ELEVATE_LABS_DA_INTERNSHIP_DAY7_TASK7/blob/6f69658181160f8ae2f40896266659a535b824e9/sold_quantity_per_product_piechart.png)
+
+Then use  pandas and matplotlib for further analysis and visualization of both the query.
+
 
 Exporting Data to CSV
 df.to_csv("updated_sales_summary.csv", index=False) print("CSV file saved: updated_sales_summary.csv")
