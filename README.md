@@ -35,3 +35,9 @@ FROM sales
 GROUP BY product
 ```
 ![](https://github.com/Arijeet226/ELEVATE_LABS_DA_INTERNSHIP_DAY7_TASK7/blob/6f69658181160f8ae2f40896266659a535b824e9/sold_quantity_per_product_piechart.png)
+Exporting Data to CSV
+df.to_csv("updated_sales_summary.csv", index=False) print("CSV file saved: updated_sales_summary.csv")
+Task Done:-
+Identified the highest revenue-generating product 
+Visualized revenue & quantity trends per product 
+Stored processed data for future analysis (updated_sales_summary.csv
