@@ -3,9 +3,14 @@ TASK 7: Get Basic Sales Summary from a Tiny SQLite Database using Python,Objecti
 
 Created a small SQLite database file (sales_data.db) with just one sales table
 
-### Tools used:-Jupiter notebook
+### Tools Used
+SQLite (sqlite3) – Lightweight database built into Python
 
-### Libraries Used:- pandas, matplotlib,sqlite3
+pandas – Data manipulation and analysis library
+
+matplotlib – Plotting and visualization library
+
+Jupyter Notebook – Interactive coding and documentation environment
 
 Connected to SQLite
 conn = sqlite3.connect("sales_data.db") cursor = conn.cursor()
