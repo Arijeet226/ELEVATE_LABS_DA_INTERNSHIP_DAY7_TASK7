@@ -28,7 +28,7 @@ GROUP BY product
 ```
 ![](https://github.com/Arijeet226/ELEVATE_LABS_DA_INTERNSHIP_DAY7_TASK7/blob/6f69658181160f8ae2f40896266659a535b824e9/revenue_by_product_barchart.png)
 # QUERY 2
-## Q-total quantity sold per product
+## Q-Total quantity sold per product
 ```sql
 SELECT product, SUM(quantity) AS total_qty
 FROM sales
