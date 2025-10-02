@@ -3,6 +3,10 @@ TASK 7: Get Basic Sales Summary from a Tiny SQLite Database using Python,Objecti
 
 Created a small SQLite database file (sales_data.db) with just one sales table
 
+### Tools used:-Jupiter notebook
+
+### Libraries Used:- pandas, matplotlib,sqlite3
+
 Connected to SQLite
 conn = sqlite3.connect("sales_data.db") cursor = conn.cursor()
 
@@ -35,8 +39,10 @@ FROM sales
 GROUP BY product
 ```
 ![](https://github.com/Arijeet226/ELEVATE_LABS_DA_INTERNSHIP_DAY7_TASK7/blob/6f69658181160f8ae2f40896266659a535b824e9/sold_quantity_per_product_piechart.png)
+
 Exporting Data to CSV
 df.to_csv("updated_sales_summary.csv", index=False) print("CSV file saved: updated_sales_summary.csv")
+
 Task Done:-
 Identified the highest revenue-generating product 
 Visualized revenue & quantity trends per product 
